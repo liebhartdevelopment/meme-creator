@@ -1,0 +1,19 @@
+{
+  "name": "meme-creator",
+  "version": "1.0.0",
+  "description": "This is a project used to demonstrate a well built production ready app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liebhartdevelopment/meme-creator.git"
+  },
+  "author": "Nathaniel Liebhart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liebhartdevelopment/meme-creator/issues"
+  },
+  "homepage": "https://github.com/liebhartdevelopment/meme-creator#readme"
+}
