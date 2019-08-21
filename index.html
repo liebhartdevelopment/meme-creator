@@ -11,6 +11,7 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="dist/memes.css" />
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -33,7 +34,12 @@
       <div class="input-area">
         <div class="form-group">
           <label for="image">Source Image:</label>
-          <input type="file" id="image" class="form-control" />
+          <input
+            type="file"
+            id="image"
+            class="form-control"
+            accept=".png, .jpg, .jpeg, .gif"
+          />
         </div>
 
         <div class="form-group">
@@ -54,7 +60,7 @@
         >
       </div>
     </div>
-
-    <script src="./dist/memes.js"></script>
+    <div class="has-error" style="display: none;"></div>
+    <script src="dist/memes.js"></script>
   </body>
 </html>
